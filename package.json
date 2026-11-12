@@ -1,0 +1,17 @@
+{
+  "name": "creator-thumbnail-delivery",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "node --experimental-strip-types src/thumbnail_service.ts",
+    "test": "node --experimental-strip-types src/thumbnail_service.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
